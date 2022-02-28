@@ -1,0 +1,3 @@
+This cloud function is triggered weekly by an incoming PubSub Message. 
+This function will go to the UFC events page and get the most recent event to have occured (e.g. a fight is on Saturday this would run Monday)
+The function writes a URL to another PubSub topic that kicks off the rest of the ignestion pipeline
